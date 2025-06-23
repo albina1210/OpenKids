@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPEN KIDS</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="sostavy.html">Составы</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="uchastnitsy.html">Участницы</a></li>
+          <li><a href="video.html">Клипы</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    <div class="text-box">
+      <h1>OPEN KIDS</h1>
+      <p>Молодёжная поп-группа</p>
+    </div>
+  </header>
+  <!--Sostav-->
+  <hr color="black">
+  <section class="sostav">
+    <h2>Составы</h2>
+    <div class="sostav-row1">
+      <div class="sostav-col">
+      <a href="sostavy.html"><img src="image/sostav1.jpg" alt="1"></a>  
+      </div>
+
+      <div class="sostav-col">
+        <a href="sostavy.html"><img src="image/sostav2.jpg" alt="1"></a>
+      </div>
+    </div>
+  </section>
+
+  <!--End sostav-->
+  <!--Gallery-->
+  <hr color="black">
+  <section class="gal">
+    <h2>Галерея</h2>
+    <div class="gal-row">
+      <h4><a href="gallery.html">Смотреть больше</a></h4>
+    </div>
+   
+  </section>
+  <!--End gallery-->
+  <hr color="black">
+ <main>
+   <div class="sostav"><h1>О группе</h1>
+    <p><b>Open Kids</b> — молодёжная поп-группа, 
+      которая за шесть лет своего существования успела 
+      собрать миллионную армию поклонников и стать одним 
+      из самых популярных проектов детского шоу-бизнеса. 
+      За плечами группы — совместная песня с Monatik («Важно»),
+      песня и клип «Круче всех» с Quest Pistols Show, 
+      несколько крупных гастрольных туров с фееричными 
+      вокально-танцевальными шоу, а также клипы, 
+      которые набирают миллионы просмотров на YouTube.
+      Группа делится на два состава: старый и новый. В каждом составе 5 участниц.</p>
+  <br>
+  <p ><a href="uchastnitsy.html" class="btn">Больше о каждой участнице</a></p></div>
+ </main>
+ <hr color="black">
+ <footer>
+  <nav>
+    <div class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="sostavy.html">Составы</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="uchastnitsy.html">Участницы</a></li>
+        <li><a href="video.html">Клипы</a></li>
+      
+      </ul>
+    </div>
+  </nav>
+  
+ </footer>
+ 
+ <script>
+
+  let navLinks = document.getElementById('navLinks');
+  function showMenu() {
+    navLinks.style.right = '0';
+  }
+  function hideMenu() {
+    navLinks.style.right = '-200px';
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

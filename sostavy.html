@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Составы</title>
+    
+    <link rel="stylesheet" href="style/sostavy.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="sostavy.html">Составы</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="uchastnitsy.html">Участницы</a></li>
+          <li><a href="video.html">Клипы</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+  </header>
+
+      <section class="main">
+        <h1 class="h1">Составы</h1>
+        <div class="sos-row">
+          <div class="sos-col">
+            <h1>Старый состав</h1>
+            <img src="./image/sostav1.jpg" alt="1">
+            <p>Официальным годом образования коллектива и старого состава 
+              считается 2012 год, когда вышел первый клип Open Kids. 
+              Однако история группы началась годом раньше, 
+              когда из девочек, обучающихся вокалу и хореографии в 
+              творческой мастерской Open Art Studio, 
+              были отобраны пять совершенно непохожих и даже не очень 
+              знакомых друг с другом девчонок, которых связывали 
+              только вокальные способности, работоспособность и 
+              стремление к популярности. Ими были: Валерия Дидковская,
+              Анна Музафарова, Юлия Гамалий, Анна Бобровская и
+              Ангелина Романовская. В ноябре 2020 года состав 
+              распался.</p>
+            </div>
+          
+            <div class="sos-col">
+              <h1>Новый состав</h1>
+            <img src="./image/sostav2.jpg" alt="1">
+            <p>В ноябре 2021 года был представлен новый состав. Ими стали: 
+              Квитка, Энджи, Сандра, Моника и Тома. 10 июля состоялась 
+              премьера видеоработы на дебютную песню нового состава 
+              «Велосипед».</p>
+            </div>
+
+      </section>
+      <footer>
+        <nav>
+      <div class="nav-links" id="navLinks">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="sostavy.html">Составы</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="uchastnitsy.html">Участницы</a></li>
+              <li><a href="video.html">Клипы</a></li>
+            
+            </ul>
+          </div>
+        </nav>
+        </footer>
+       
+       <script>
+      let navLinks = document.getElementById('navLinks');
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+      </script>
+      
+      <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>
